@@ -50,8 +50,7 @@ int main_syntax(void) {
 	Logical operator && and || or    ! negation 
 
 	goto label; control is unconditionally transferred to a labeled statement.
-	label : {
-	} 
+	label : {} 
 
 	Call by Value always! when a=4, a is not changed, value is passed to function.
 	Safe but needs more memory
@@ -105,7 +104,7 @@ int main_syntax(void) {
 	int add = 3 + 7; 
 	printf("3+7=%d\n", add);
 	printf("%d x %d =%d\n", 3, 7, 3 * 7);
-	/*
+	
 	//scanf 
 	int input;
 	printf("Please enter any integer value:");
@@ -118,18 +117,18 @@ int main_syntax(void) {
 	printf("%d\n", one);
 	printf("%d\n", two);
 	printf("%d\n", three);
-	*/
+	
 	/*Character(single) and String(more than one) 
 	character enclosed in single-quote marks
 	string enclosed in double-quote marks
 	"abc" "def" -> cpp -> "abcdef"
 	*/
-	/*char c = 'A';
+	char c = 'A';
 	printf("%c\n", c);
 	char str[256]; //A string of 256 characters
 	scanf_s("%s", str, sizeof(str));
 	printf("%s\n", str);
-	*/
+	
 	/*
 	Loop
 	for(declaration;condition;change){}
