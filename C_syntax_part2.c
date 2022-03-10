@@ -58,7 +58,7 @@ int main_syn2(void) {
 	printf("%s\n", str2); //coding
 	printf("%d\n", sizeof(str2)); //7
 
-	char korean[] = "Åë°èÇÐ";
+	char korean[] = "Ã…Ã«Â°Ã¨Ã‡Ã";
 	printf("%s\n", korean);
 	printf("%d\n", sizeof(korean)); 
 	//3 letters but size of 7 because an Eng character needs one byte
@@ -93,7 +93,6 @@ int main_syn2(void) {
 	4)size_t strlen(const char* s) : the number of characters before \0
 	*/
 
-
 	/*Pointer
 	used to access memory and manipulate addresses (reference to a specific memory location)
 	int *x  defines x which is a pointer to a integer.
@@ -116,7 +115,7 @@ int main_syn2(void) {
 	double sum(double x[], int n) x[] pointer and int n is limit 
 	*/
 
-	/*int i = 4, j = 6, * p = &i, * q = &j;
+	int i = 4, j = 6, * p = &i, * q = &j;
 	//*p=&i is NOT assignment, but declaration value of p is the address of i
 	//**&p  -> *(&p)=p -> 4 
 
@@ -127,7 +126,7 @@ int main_syn2(void) {
 	printf("%d\n", q2 - p2); //2
 	printf("%d\n", (int)q2 - (int) p2); //16 1020-1004
 	//(int) this thing is called typecasting, changing the data type of the variables
-	*/
+	
 	int A[100], i, * p, sum = 0;
 
 	for (p = A; p < &A[100]; p++)
