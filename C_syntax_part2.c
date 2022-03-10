@@ -79,11 +79,11 @@ int main_syn2(void) {
 	//Prints ASCII code of each character, Null char \0 is 0 in ASCII.
 	//ASCII - standard coding system by ANSI, US
 	//7 bits 0~127
-	/*for (int i = 0; i < 128; i++)
+	for (int i = 0; i < 128; i++)
 	{
 		printf("ASCII number %d : %c\n", i, i);
 	}
-	*/
+	
 
 
 	/*Some String-handling functions in stdlib.h
