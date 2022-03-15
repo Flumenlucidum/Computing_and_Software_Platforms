@@ -4,12 +4,12 @@ In order to handle large number of cases and objects, so called big data, knowle
 
 ### Software Platforms for Data Science / Prof. Jaejin Lee / 2020-1 
   * Computer architecture
-  * Python language
+  * Python language and Object-Oriented Programming
   * Data structures (Built-in structures in Python, Stacks and Queues, Trees and Graphs) 
-  * Algorithms (Analysis of algorithms (Big-O notation), Searching and Sorting)
+  * Algorithms (Analysis of algorithms (Big-O notation), Searching, Sorting, Hashing, BFS, DFS)
   * Tensorflow and Pytorch 
 ### Scalable High-Performance Computing / Prof. Jaejin Lee / 2020-2
   * C language
-  * Data types
+  * Data types 
   * GPU architecture
-  * CUDA platform
+  * Platforms for parallel computing : OpenMP, OpenCL, and CUDA
