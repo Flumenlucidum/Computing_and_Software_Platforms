@@ -10,6 +10,6 @@ In order to handle large number of cases and objects, so called big data, knowle
   * Tensorflow and Pytorch 
 ### Scalable High-Performance Computing / Prof. Jaejin Lee / 2020-2
   * C language
-  * Data types 
+  * Data structures in C, Pointer, Memory 
   * GPU architecture
   * Platforms for parallel computing : OpenMP, OpenCL, and CUDA
